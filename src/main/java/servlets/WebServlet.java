@@ -62,6 +62,11 @@ public class WebServlet extends HttpServlet {
         String price = rb.getString("price");
         String owner = rb.getString("owner");
 
+        String shortInfo = rb.getString("shortInfo");
+        String detailsInfo = rb.getString("detailsInfo");
+        String reviews = rb.getString("reviews");
+
+
         String fotoDescription1 = rb.getString("fotoDescription1");
         String fotoDescription2 = rb.getString("fotoDescription2");
         String fotoDescription3 = rb.getString("fotoDescription3");
@@ -188,9 +193,9 @@ public class WebServlet extends HttpServlet {
                 "<!--START-->\n" +
                         "<div class=\"tab-nav\">\n" +
                         "    <ul class=\"nav-ul\">\n" +
-                        "        <li class=\"nav-li\" id=\"li1\" style=\"background-color:" + ((firstPar == 1) ? "#8B0000;" : "#FF0000;") + "\" onclick=\"show('1')\"><a href=\"#w\" id=\"li-a1\" class=\"tab-menu\">Кратко</a></li>\n" +
-                        "        <li class=\"nav-li\" id=\"li2\" style=\"background-color:" + ((firstPar == 2) ? "#8B0000;" : "#FF0000;") + "\" onclick=\"show('2')\"><a href=\"#w\" id=\"li-a2\" class=\"tab-menu\">Подробно</a></li>\n" +
-                        "        <li class=\"nav-li\" id=\"li3\" style=\"background-color:" + ((firstPar == 3) ? "#8B0000;" : "#FF0000;") + "\" onclick=\"show('3')\"><a href=\"#w\" id=\"li-a3\" class=\"tab-menu\">Отзывы</a></li>\n" +
+                        "        <li class=\"nav-li\" id=\"li1\" style=\"background-color:" + ((firstPar == 1) ? "#8B0000;" : "#FF0000;") + "\" onclick=\"show('1')\"><a href=\"#w\" id=\"li-a1\" class=\"tab-menu\">"+ shortInfo +"</a></li>\n" +
+                        "        <li class=\"nav-li\" id=\"li2\" style=\"background-color:" + ((firstPar == 2) ? "#8B0000;" : "#FF0000;") + "\" onclick=\"show('2')\"><a href=\"#w\" id=\"li-a2\" class=\"tab-menu\">"+ detailsInfo +"</a></li>\n" +
+                        "        <li class=\"nav-li\" id=\"li3\" style=\"background-color:" + ((firstPar == 3) ? "#8B0000;" : "#FF0000;") + "\" onclick=\"show('3')\"><a href=\"#w\" id=\"li-a3\" class=\"tab-menu\">"+ reviews +"</a></li>\n" +
                         "    </ul>\n" +
                         "    <div class=\"tab-content\">\n" +
                         "        <div id=\"short\" class=\"tabs\" style=\"display:"+((firstPar == 1) ? "block;" : "none;") + "\">\n" +
