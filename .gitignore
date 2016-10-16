@@ -45,3 +45,27 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.xml
+out/artifacts/ServletLab_war_exploded/WEB-INF/classes/com/servlets/
+out/artifacts/ServletLab_war_exploded/WEB-INF/classes/img/
+out/artifacts/ServletLab_war_exploded/WEB-INF/classes/paul/
+out/artifacts/ServletLab_war_exploded/WEB-INF/classes/resource/
+out/artifacts/ServletLab_war_exploded/WEB-INF/classes/servlets/
+out/artifacts/ServletLab_war_exploded/WEB-INF/classes/shop.properties
+out/artifacts/ServletLab_war_exploded/WEB-INF/classes/shop_de_DE.properties
+out/artifacts/ServletLab_war_exploded/WEB-INF/classes/shop_en_GB.properties
+out/artifacts/ServletLab_war_exploded/WEB-INF/classes/shop_ru_RU.properties
+out/artifacts/ServletLab_war_exploded/css/style-panel.css
+out/artifacts/ServletLab_war_exploded/js/
+out/artifacts/ServletLab_war_exploded/panel.jsp
+out/artifacts/ServletLab_war_exploded/sample/
+out/production/1Lab/
+out/production/ServletLab/com/servlets/
+out/production/ServletLab/paul/
+out/production/ServletLab/shop.properties
+out/production/ServletLab/shop_de_DE.properties
+out/production/ServletLab/shop_en_GB.properties
+out/production/ServletLab/shop_ru_RU.properties
+src/main/web/WEB-INF/
+src/main/web/css/style-panel.css
+src/main/web/panel.jsp
